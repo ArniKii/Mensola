@@ -12,6 +12,7 @@ public class Mensola {//classe aggregante
         for (int i = 0; i < cp.volumi.length; i++) {
             if (cp.volumi[i] != null) {
                 this.volumi[i] = new Libro(cp.volumi[i]);
+                nVol++;
             }
 
         }
